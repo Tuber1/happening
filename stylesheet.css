@@ -1,0 +1,93 @@
+body{
+    background-color:#303030;
+    padding-left:10vw;
+    padding-right:10vw;
+    margin:0
+}
+
+.content{
+    max-width:1000px;
+    background-color:#d7e5db;
+    padding:20px;
+    box-shadow: 0 0 10px #000;
+}
+
+h1,h2,h3,p,a {
+        font-family:'Avenir', sans-serif;
+}
+
+h1 {
+    font-size:60px;
+}
+
+h2 {
+    font-size:40px;
+    font-weight:100;
+}
+
+#nav {
+    position:fixed;
+    margin-top:10px;
+}
+
+#nav a {
+    font-size:20px;
+    padding: 30px 25px 10px 25px;
+    text-decoration:none;
+    color: black;
+    font-weight:100;
+}
+
+#nav a:hover {
+    background-color:rgba(50,50,50,.2);
+    color: black;
+}
+
+.section {
+    width:80%;
+    height:100%;
+    background-color:rgb(255,250,245);
+    display:flex;
+    padding:10%;
+    
+}
+
+#home {
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    min-height:800px;
+    background-image: url('https://images.pexels.com/photos/4827/nature-forest-trees-fog.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-attachment:fixed;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+#home h1 {
+    background-color:rgb(255,250,245);
+    padding:0 20px 0 30px;
+    color:black;
+    letter-spacing:0.3em;
+    text-align:center;
+}
+
+#about {
+    flex-direction:column;
+    justify-content:flex-start;
+    align-items:center;
+}
+
+#footer {
+    background-color:#3a3a3a;
+    width:100%;
+    padding:10px 0;
+}
+
+#footer p {
+    margin:auto;
+    text-align:center;
+    color:white;
+    font-weight:100;
+    letter-spacing:1ex;
+}
